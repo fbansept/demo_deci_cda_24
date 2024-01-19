@@ -1,0 +1,1 @@
+INSERT INTO product (name, price) VALUES ("Expresso",1.5) , ("Latte", 2.5);
