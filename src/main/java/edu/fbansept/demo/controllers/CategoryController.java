@@ -35,7 +35,7 @@ public class CategoryController {
         return categories;
     }
 
-    @DeleteMapping("/category/{id}")
+    @DeleteMapping("/admin/category/{id}")
     public ResponseEntity<Integer> deleteCategory(@PathVariable int id){
 
         boolean exist = categoryDao.existsById(id);
