@@ -1,3 +1,6 @@
+INSERT INTO `user` (`admin`, `id`, `password`, `pseudo`) VALUES
+(b'0', 1, '$2a$10$q9PAmq6FIDF5GwnC9uFGPOUYzenNK5Uzz1Zr5V5aLuxfx4UN0mGKG', 'franck');
+
 INSERT INTO category (name) VALUES ("Cafes"),("Gateaux");
 
 INSERT INTO tag (name) VALUES ("Promo"),("Best seller"),("Organic"),("Alergen");
